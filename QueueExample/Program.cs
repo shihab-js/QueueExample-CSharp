@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace QueueExample
 {
@@ -6,7 +7,8 @@ namespace QueueExample
     {
         static void Main(string[] args)
         {
-            
+            //create a queue 
+            var names = new Queue<string>();
         }
     }
 }
