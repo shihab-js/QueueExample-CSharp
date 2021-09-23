@@ -21,6 +21,9 @@ namespace QueueExample
                 Console.WriteLine(name);
             }
 
+            //dequeue a element
+            Console.WriteLine(names.Dequeue());
+
         }
     }
 }
