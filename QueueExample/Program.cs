@@ -14,6 +14,13 @@ namespace QueueExample
             names.Enqueue("shihab");
             names.Enqueue("Mishu");
             names.Enqueue("Rayhan");
+
+            //Iterate the queue
+            foreach(var name in names)
+            {
+                Console.WriteLine(name);
+            }
+
         }
     }
 }
