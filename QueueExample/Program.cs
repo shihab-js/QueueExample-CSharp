@@ -24,6 +24,14 @@ namespace QueueExample
             //dequeue a element
             Console.WriteLine(names.Dequeue());
 
+            Console.WriteLine("After dequeue a element: ");
+
+            //after dequeue a element
+            foreach (var name in names)
+            {
+                Console.WriteLine(name);
+            }
+
         }
     }
 }
